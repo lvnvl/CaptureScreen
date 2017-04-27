@@ -98,7 +98,7 @@ public class GenerateResult {
 				if (ocrValue > max) {
 					max = ocrValue;
 				}
-				
+				imgBinary.delete();
 				// generate binary img
 //				ImageUtil.toBinary(img);
 //				img.delete();
